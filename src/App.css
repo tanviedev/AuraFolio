@@ -1,0 +1,184 @@
+/* Base Theme */
+body {
+  margin: 0;
+  background-color: #0D0D0D;
+  color: #E5E4E2;
+  font-family: 'Inter', 'DM Sans', 'Space Grotesk', sans-serif;
+  line-height: 1.6;
+}
+
+/* Layout Container */
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Hero Heading */
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #FFD700;
+  margin-bottom: 2rem;
+}
+
+/* Form Sections */
+.form-section {
+  margin-bottom: 3rem;
+}
+
+.form-section label {
+  display: block;
+  margin: 1rem 0 0.25rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #C0C0C0;
+}
+
+/* Input Fields */
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: #1A1A1A;
+  border: 1px solid #333;
+  color: #E5E4E2;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #AA00FF;
+  box-shadow: 0 0 5px #AA00FF66;
+}
+
+/* Tags for Tech Stack */
+.tag {
+  background: linear-gradient(135deg, #AA00FF, #C0C0C0);
+  color: #0D0D0D;
+  padding: 4px 10px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Rotating Text Branding */
+.rotating-wrapper {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #AA00FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.rotating-text {
+  background-color: #1A1A1A;
+  padding: 6px 12px;
+  border-radius: 6px;
+  animation: shimmer 3s infinite linear;
+  box-shadow: 0 0 6px #AA00FF88;
+}
+
+/* Preview Titles */
+.preview-section h3 {
+  margin-top: 2rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 6px;
+  font-size: 1.25rem;
+  font-family: 'Clash Display', serif;
+  color: #FFD700;
+}
+
+/* Project/Experience Inputs */
+.project-input,
+.exp-input {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.project-input h4,
+.exp-input h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #E5E4E2;
+}
+
+/* Project Preview Block */
+.project-preview {
+  border-top: 1px dashed #444;
+  padding: 1rem 0;
+}
+
+.project-preview h4 {
+  color: #AA00FF;
+}
+
+/* Portfolio Output */
+.portfolio-site {
+  background: #111;
+  color: #E5E4E2;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #AA00FF33;
+  margin: 2rem auto;
+}
+
+.portfolio-site section {
+  margin-top: 2rem;
+}
+
+.portfolio-site a {
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.portfolio-site a:hover {
+  color: #C0C0C0;
+  text-shadow: 0 0 5px #AA00FF88;
+}
+
+/* Add Button Styling */
+button {
+  background-color: #AA00FF;
+  color: #0D0D0D;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #C0C0C0;
+  color: #0D0D0D;
+  box-shadow: 0 0 6px #FFD70066;
+}
+
+/* ✨ Animation */
+@keyframes shimmer {
+  0% {
+    box-shadow: 0 0 8px #AA00FF44;
+  }
+  50% {
+    box-shadow: 0 0 20px #AA00FFAA;
+  }
+  100% {
+    box-shadow: 0 0 8px #AA00FF44;
+  }
+}
